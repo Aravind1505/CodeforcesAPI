@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    background-color: #151D3B;
+}
+
+.gridContainer{
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    grid-template-rows: 1fr; /*98vh*/
+    grid-gap: 10px;
+}
+
+.mainMenu{
+    background-color: #4FD3C4;
+    padding : 10px;
+    display: grid;
+    grid-template-rows: 4fr 2fr 2fr;
+    grid-template-columns: 1fr;
+    border-radius: 10px;
+    grid-gap: 10px;
+}
+
+.subMenu{
+    background-color: #C1F8CF;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.subMenuHeading{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.subMenuBtn{
+    background-color: #533E85;
+    border: 0px;
+    border-radius: 25px;
+    padding: 15px;
+    color: #DDD;
+}
+
+.fieldsMenu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+}
+
+#outputContent{
+    background-color: #533E85;
+    padding:10px;
+    border-radius: 10px;
+    min-height: 10rem;
+}
+
+.contentMenu{
+    background-color: #4FD3C4;
+    border-radius: 10px;
+    height: 98vh;
+    padding: 10px;
+    display : grid;
+    /* grid-template-columns: 1fr; */
+    /* grid-template-rows: 1fr 1fr; */
+}
+
+.contentMenuHeading{
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.contentMenuContainer{
+    background-color: #C1F8CF;
+    min-height: 55rem;
+    border-radius: 10px;
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    overflow-y: scroll;
+    /* overflow: hidden; */
+    grid-gap: 10px;
+}
+
+.contentMenuContainerBlock{
+    background-color: #533E85;
+    border-radius: 10px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid: 10px; */
+}
+
+.contentBlocklabel{
+    font-size: 1em;
+}
+
+.contentBlockdata{
+    font-size: 0.8em;
+    /* text-overflow: clip; */
+}
